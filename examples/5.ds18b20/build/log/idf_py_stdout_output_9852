@@ -1,330 +1,0 @@
-[0;32mI (356) esp_image: segment 4: paddr=0018e0f8 vaddr=403844bc size=031d4h ( 12756) load[0m
-ESP-ROM:esp32s3-20210327
-Build:Mar 27 2021
-rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
-Saved PC:0x40056f60
-SPIWP:0xee
-mode:DIO, clock div:1
-load:0x3fce3818,len:0x1874
-load:0x403c9700,len:0x4
-load:0x403c9704,len:0xd88
-load:0x403cc700,len:0x3070
-entry 0x403c9934
-[0;32mI (27) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
-[0;32mI (27) boot: compile time Mar 12 2024 11:52:17[0m
-[0;32mI (27) boot: Multicore bootloader[0m
-[0;32mI (30) boot: chip revision: v0.2[0m
-[0;32mI (34) qio_mode: Enabling default flash chip QIO[0m
-[0;32mI (39) boot.esp32s3: Boot SPI Speed : 80MHz[0m
-[0;32mI (44) boot.esp32s3: SPI Mode       : QIO[0m
-[0;32mI (49) boot.esp32s3: SPI Flash Size : 8MB[0m
-[0;32mI (54) boot: Enabling RNG early entropy source...[0m
-[0;32mI (59) boot: Partition Table:[0m
-[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
-[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
-[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
-[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 002ee000[0m
-[0;32mI (92) boot:  3 storage          Unknown data     01 82 002fe000 00200000[0m
-[0;32mI (100) boot: End of partition table[0m
-[0;32mI (104) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=120bc4h (1182660) map[0m
-[0;32mI (292) esp_image: segment 1: paddr=00130bec vaddr=3fc97700 size=02f68h ( 12136) load[0m
-[0;32mI (295) esp_image: segment 2: paddr=00133b5c vaddr=40378000 size=0c4bch ( 50364) load[0m
-[0;32mI (308) esp_image: segment 3: paddr=00140020 vaddr=42000020 size=4e0d0h (319696) map[0m
-[0;32mI (357) esp_image: segment 4: paddr=0018e0f8 vaddr=403844bc size=031d4h ( 12756) load[0m
-[0;32mI (366) boot: Loaded app from partition at offset 0x10000[0m
-[0;32mI (366) boot: Disabling RNG early entropy source...[0m
-[0;32mI (366) cpu_start: Multicore app[0m
-[0;32mI (370) octal_psram: vendor id    : 0x0d (AP)[0m
-[0;32mI (375) octal_psram: dev id       : 0x02 (generation 3)[0m
-[0;32mI (381) octal_psram: density      : 0x03 (64 Mbit)[0m
-[0;32mI (386) octal_psram: good-die     : 0x01 (Pass)[0m
-[0;32mI (392) octal_psram: Latency      : 0x01 (Fixed)[0m
-[0;32mI (397) octal_psram: VCC          : 0x01 (3V)[0m
-[0;32mI (402) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
-[0;32mI (408) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
-[0;32mI (414) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
-[0;32mI (419) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
-[0;32mI (425) octal_psram: DriveStrength: 0x00 (1/1)[0m
-[0;32mI (431) MSPI Timing: PSRAM timing tuning index: 5[0m
-[0;32mI (436) esp_psram: Found 8MB PSRAM device[0m
-[0;32mI (441) esp_psram: Speed: 80MHz[0m
-[0;32mI (466) mmu_psram: Instructions copied and mapped to SPIRAM[0m
-[0;32mI (538) mmu_psram: Read only data copied and mapped to SPIRAM[0m
-[0;32mI (538) cpu_start: Pro cpu up.[0m
-[0;32mI (538) cpu_start: Starting app cpu, entry point is 0x4037951c[0m
-[0;32mI (0) cpu_start: App cpu up.[0m
-[0;32mI (775) esp_psram: SPI SRAM memory test OK[0m
-[0;32mI (783) cpu_start: Pro cpu start user code[0m
-[0;32mI (784) cpu_start: cpu freq: 240000000 Hz[0m
-[0;32mI (784) cpu_start: Application information:[0m
-[0;32mI (784) cpu_start: Project name:     lvgl_demo[0m
-[0;32mI (784) cpu_start: App version:      022984f-dirty[0m
-[0;32mI (784) cpu_start: Compile time:     Mar 12 2024 11:52:01[0m
-[0;32mI (785) cpu_start: ELF file SHA256:  5fa0a73c901ff508...[0m
-[0;32mI (785) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
-[0;32mI (785) cpu_start: Min chip rev:     v0.0[0m
-[0;32mI (785) cpu_start: Max chip rev:     v0.99 [0m
-[0;32mI (785) cpu_start: Chip rev:         v0.2[0m
-[0;32mI (785) heap_init: Initializing. RAM available for dynamic allocation:[0m
-[0;32mI (786) heap_init: At 3FC9B4E8 len 0004E228 (312 KiB): DRAM[0m
-[0;32mI (786) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
-[0;32mI (786) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
-[0;32mI (787) esp_psram: Adding pool of 6656K of PSRAM memory to heap allocator[0m
-[0;32mI (787) spi_flash: detected chip: generic[0m
-[0;32mI (787) spi_flash: flash io: qio[0m
-[0;33mW (787) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.[0m
-[0;33mW (788) mcpwm(legacy): legacy driver is deprecated, please migrate to `driver/mcpwm_prelude.h`[0m
-[0;32mI (788) sleep: Configure to isolate all GPIO pins in sleep state[0m
-[0;32mI (788) sleep: Enable automatic switching of GPIO sleep configuration[0m
-[0;32mI (789) app_start: Starting scheduler on CPU0[0m
-[0;32mI (789) app_start: Starting scheduler on CPU1[0m
-main_task: Started on CPU0[0m
-[0;32mI (799) esp_psram: Reserving pool of 8K of internal memory for DMA/internal allocations[0m
-[0;32mI (799) main_task: Calling app_main()[0m
-[0;32mI (799) i2c_bus: i2c0 bus inited[0m
-[0;32mI (799) error: sys_int
-[0m
-[0;32mI (809) error: sys_int
-[0m
-[0;32mI (809) gpio: GPIO[38]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (809) gpio: GPIO[39]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (809) gpio: GPIO[40]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (809) st7701: st7701 register init[0m
-[0;32mI (959) gpio: GPIO[1]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (959) lv_port_disp: Install RGB panel driver[0m
-[0;32mI (969) lv_port_disp: Turn on LCD backlight[0m
-[0;32mI (969) lv_port_disp: LCD resolution: 480x480[0m
-[0;32mI (969) lv_port_disp: Use frame buffers as LVGL draw buffers[0m
-[0;32mI (979) gt911: tp driver ic:GT911[0m
-[0;32mI (979) gt911: tp config version:0x61[0m
-[0;32mI (989) gt911: gt911 init ok[0m
-[0;32mI (989) bsp_i2c: lv_init
-[0m
-[0;32mI (989) pwm: pwm init freq=1000Hz duty=50.0%[0m
-[0;32mI (989) app_main: T=23C.
-[0m
-[0;32mI (1009) main_task: Returned from app_main()[0m
-[0;32mI (1989) app_main: T=23C.
-[0m
-[0;32mI (2989) app_main: T=23C.
-[0m
-[0;32mI (3989) app_main: T=23C.
-[0m
-[0;32mI (4989) app_main: T=23C.
-[0m
-[0;32mI (5989) app_main: T=23C.
-[0m
-[0;32mI (6989) app_main: T=23C.
-[0m
-[0;32mI (7989) app_main: T=23C.
-[0m
-[0;32mI (8989) app_main: T=23C.
-[0m
-[0;32mI (9989) app_main: T=23C.
-[0m
-[0;32mI (10989) app_main: T=23C.
-[0m
-[0;32mI (11989) app_main: T=23C.
-[0m
-[0;32mI (12989) app_main: T=23C.
-[0m
-[0;32mI (13989) app_main: T=23C.
-[0m
-[0;32mI (14989) app_main: T=23C.
-[0m
-[0;32mI (15989) app_main: T=23C.
-[0m
-[0;32mI (16989) app_main: T=23C.
-[0m
-[0;32mI (17989) app_main: T=23C.
-[0m
-[0;32mI (18989) app_main: T=4095C.
-[0m
-[0;32mI (19989) app_main: T=23C.
-[0m
-[0;32mI (20989) app_main: T=23C.
-[0m
-[0;32mI (21989) app_main: T=23C.
-[0m
-[0;32mI (22989) app_main: T=23C.
-[0m
-[0;32mI (23989) app_main: T=23C.
-[0m
-[0;32mI (24989) app_main: T=23C.
-[0m
-[0;32mI (25989) app_main: T=23C.
-[0m
-[0;32mI (26989) app_main: T=23C.
-[0m
-[0;32mI (27989) app_main: T=23C.
-[0m
-[0;32mI (28989) app_main: T=23C.
-[0m
-[0;32mI (29989) app_main: T=23C.
-[0m
-[0;32mI (30989) app_main: T=23C.
-[0m
-[0;32mI (292) esp_image: segment 1: paddr=00130bec vaddr=3fc977[0;32mI (359) esp_image: segment 4: paddr=0018e0f8 vaddr=403844bc size=031d4h ( 12756) load[0m
-[0;32mI (368) boot: Loaded app from partition at offset 0x10000[0m
-[0;32mI (368) boot: Disabling RNG early entropy source...[0m
-[0;32mI (369) cpu_start: Multicore app[0m
-[0;32mI (372) octal_psram: vendor id    : 0x0d (AP)[0m
-[0;32mI (377) octal_psram: dev id       : 0x02 (generation 3)[0m
-[0;32mI (383) octal_psram: density      : 0x03 (64 Mbit)[0m
-[0;32mI (389) octal_psram: good-die     : 0x01 (Pass)[0m
-[0;32mI (394) octal_psram: Latency      : 0x01 (Fixed)[0m
-[0;32mI (399) octal_psram: VCC          : 0x01 (3V)[0m
-[0;32mI (404) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
-[0;32mI (410) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
-[0;32mI (416) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
-[0;32mI (421) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
-[0;32mI (428) octal_psram: DriveStrength: 0x00 (1/1)[0m
-[0;32mI (433) MSPI Timing: PSRAM timing tuning index: 5[0m
-[0;32mI (438) esp_psram: Found 8MB PSRAM device[0m
-[0;32mI (443) esp_psram: Speed: 80MHz[0m
-[0;32mI (468) mmu_psram: Instructions copied and mapped to SPIRAM[0m
-[0;32mI (540) mmu_psram: Read only data copied and mapped to SPIRAM[0m
-[0;32mI (540) cpu_start: Pro cpu up.[0m
-[0;32mI (540) cpu_start: Starting app cpu, entry point is 0x4037951c[0m
-[0;32mI (0) cpu_start: App cpu up.[0m
-[0;32mI (777) esp_psram: SPI SRAM memory test OK[0m
-[0;32mI (786) cpu_start: Pro cpu start user code[0m
-[0;32mI (786) cpu_start: cpu freq: 240000000 Hz[0m
-[0;32mI (786) cpu_start: Application information:[0m
-[0;32mI (786) cpu_start: Project name:     lvgl_demo[0m
-[0;32mI (786) cpu_start: App version:      022984f-dirty[0m
-[0;32mI (786) cpu_start: Compile time:     Mar 12 2024 11:52:01[0m
-[0;32mI (787) cpu_start: ELF file SHA256:  5fa0a73c901ff508...[0m
-[0;32mI (787) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
-[0;32mI (787) cpu_start: Min chip rev:     v0.0[0m
-[0;32mI (787) cpu_start: Max chip rev:     v0.99 [0m
-[0;32mI (787) cpu_start: Chip rev:         v0.2[0m
-[0;32mI (788) heap_init: Initializing. RAM available for dynamic allocation:[0m
-[0;32mI (788) heap_init: At 3FC9B4E8 len 0004E228 (312 KiB): DRAM[0m
-[0;32mI (788) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
-[0;32mI (788) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
-[0;32mI (789) esp_psram: Adding pool of 6656K of PSRAM memory to heap allocator[0m
-[0;32mI (789) spi_flash: detected chip: generic[0m
-[0;32mI (789) spi_flash: flash io: qio[0m
-[0;33mW (789) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.[0m
-[0;33mW (790) mcpwm(legacy): legacy driver is deprecated, please migrate to `driver/mcpwm_prelude.h`[0m
-[0;32mI (790) sleep: Configure to isolate all GPIO pins in sleep state[0m
-[0;32mI (791) sleep: Enable automatic switching of GPIO sleep configuration[0m
-[0;32mI (791) app_start: Starting scheduler on CPU0[0m
-[0;32mI (791) app_start: Starting scheduler on CPU1[0m
-32mI (791) main_task: Started on CPU0[0m
-[0;32mI (801) esp_psram: Reserving pool of 8K of internal memory for DMA/internal allocations[0m
-[0;32mI (801) main_task: Calling app_main()[0m
-[0;32mI (801) i2c_bus: i2c0 bus inited[0m
-[0;32mI (801) error: sys_int
-[0m
-[0;32mI (811) error: sys_int
-[0m
-[0;32mI (811) gpio: GPIO[38]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (811) gpio: GPIO[39]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (811) gpio: GPIO[40]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (811) st7701: st7701 register init[0m
-[0;32mI (961) gpio: GPIO[1]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (961) lv_port_disp: Install RGB panel driver[0m
-[0;32mI (971) lv_port_disp: Turn on LCD backlight[0m
-[0;32mI (971) lv_port_disp: LCD resolution: 480x480[0m
-[0;32mI (971) lv_port_disp: Use frame buffers as LVGL draw buffers[0m
-[0;32mI (981) gt911: tp driver ic:GT911[0m
-[0;32mI (981) gt911: tp config version:0x61[0m
-[0;32mI (991) gt911: gt911 init ok[0m
-[0;32mI (991) bsp_i2c: lv_init
-[0m
-[0;32mI (991) pwm: pwm init freq=1000Hz duty=50.0%[0m
-[0;32mI (991) app_main: T=23C.
-[0m
-[0;32mI (1011) main_task: Returned from app_main()[0m
-[0;32mI (1991) app_main: T=23C.
-[0m
-[0;32mI (2991) app_main: T=23C.
-[0m
-[0;32mI (3991) app_main: T=23C.
-[0m
-[0;32mI (4991) app_main: T=23C.
-[0m
-[0;32mI (5991) app_main: T=23C.
-[0m
-[0;32mI (6991) app_main: T=23C.
-[0m
-[0;32mI (7991) app_main: T=23C.
-[0m
-[0;32mI (8991) app_main: T=23C.
-[0m
-[0;32mI (9991) app_main: T=23C.
-[0m
-[0;32mI (10991) app_main: T=23C.
-[0m
-[0;32mI (11991) app_main: T=23C.
-[0m
-[0;32mI (12991) app_main: T=23C.
-[0m
-[0;32mI (13991) app_main: T=23C.
-[0m
-[0;32mI (14991) app_main: T=23C.
-[0m
-[0;32mI (15991) app_main: T=23C.
-[0m
-[0;32mI (16991) app_main: T=23C.
-[0m
-[0;32mI (17991) app_main: T=23C.
-[0m
-[0;32mI (18991) app_main: T=23C.
-[0m
-[0;32mI (19991) app_main: T=23C.
-[0m
-[0;32mI (20991) app_main: T=23C.
-[0m
-[0;32mI (21991) app_main: T=23C.
-[0m
-[0;32mI (357) esp_image: segment 4: paddr=0018e0f8 vaddr=403844[0;32mI (780) esp_psram: SPI SRAM memory test OK[0m
-[0;32mI (788) cpu_start: Pro cpu start user code[0m
-[0;32mI (788) cpu_start: cpu freq: 240000000 Hz[0m
-[0;32mI (789) cpu_start: Application information:[0m
-[0;32mI (789) cpu_start: Project name:     lvgl_demo[0m
-[0;32mI (789) cpu_start: App version:      022984f-dirty[0m
-[0;32mI (789) cpu_start: Compile time:     Mar 12 2024 11:52:01[0m
-[0;32mI (789) cpu_start: ELF file SHA256:  5fa0a73c901ff508...[0m
-[0;32mI (790) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
-[0;32mI (790) cpu_start: Min chip rev:     v0.0[0m
-[0;32mI (790) cpu_start: Max chip rev:     v0.99 [0m
-[0;32mI (790) cpu_start: Chip rev:         v0.2[0m
-[0;32mI (790) heap_init: Initializing. RAM available for dynamic allocation:[0m
-[0;32mI (791) heap_init: At 3FC9B4E8 len 0004E228 (312 KiB): DRAM[0m
-[0;32mI (791) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
-[0;32mI (791) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
-[0;32mI (791) esp_psram: Adding pool of 6656K of PSRAM memory to heap allocator[0m
-[0;32mI (792) spi_flash: detected chip: generic[0m
-[0;32mI (792) spi_flash: flash io: qio[0m
-[0;33mW (792) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.[0m
-[0;33mW (793) mcpwm(legacy): legacy driver is deprecated, please migrate to `driver/mcpwm_prelude.h`[0m
-[0;32mI (793) sleep: Configure to isolate all GPIO pins in sleep state[0m
-[0;32mI (793) sleep: Enable automatic switching of GPIO sleep configuration[0m
-[0;32mI (794) app_start: Starting scheduler on CPU0[0m
-[0;32mI (794) app_start: Starting scheduler on CPU1[0m
-794) main_task: Started on CPU0[0m
-[0;32mI (804) esp_psram: Reserving pool of 8K of internal memory for DMA/internal allocations[0m
-[0;32mI (804) main_task: Calling app_main()[0m
-[0;32mI (804) i2c_bus: i2c0 bus inited[0m
-[0;32mI (804) error: sys_int
-[0m
-[0;32mI (814) error: sys_int
-[0m
-[0;32mI (814) gpio: GPIO[38]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (814) gpio: GPIO[39]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (814) gpio: GPIO[40]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (814) st7701: st7701 register init[0m
-[0;32mI (964) gpio: GPIO[1]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (964) lv_port_disp: Install RGB panel driver[0m
-[0;32mI (974) lv_port_disp: Turn on LCD backlight[0m
-[0;32mI (974) lv_port_disp: LCD resolution: 480x480[0m
-[0;32mI (974) lv_port_disp: Use frame buffers as LVGL draw buffers[0m
-[0;32mI (984) gt911: tp driver ic:GT911[0m
-[0;32mI (984) gt911: tp config version:0x42[0m
-[0;32mI (994) gt911: gt911 init ok[0m
-[0;32mI (994) bsp_i2c: lv_init
-[0m
-[0;32mI (9
