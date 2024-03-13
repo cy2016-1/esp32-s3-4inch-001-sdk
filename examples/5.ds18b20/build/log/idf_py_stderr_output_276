@@ -1,0 +1,51 @@
+Compiler supported targets: xtensa-esp32s3-elf
+
+CMake Warning at E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:293 (message):
+  No source files found for SRC_DIRS entry '.'.
+Call Stack (most recent call first):
+  E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:443 (__component_add_sources)
+  F:/code/lvgl/TEST/ESP32S3-4inch-001SDK/components/DS18B20/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Warning at E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:293 (message):
+  No source files found for SRC_DIRS entry '.'.
+Call Stack (most recent call first):
+  E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:443 (__component_add_sources)
+  F:/code/lvgl/TEST/ESP32S3-4inch-001SDK/components/i2c_bsp/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Warning at E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:293 (message):
+  No source files found for SRC_DIRS entry '.'.
+Call Stack (most recent call first):
+  E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:443 (__component_add_sources)
+  F:/code/lvgl/TEST/ESP32S3-4inch-001SDK/components/lcd_touch/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Warning at E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:293 (message):
+  No source files found for SRC_DIRS entry '.'.
+Call Stack (most recent call first):
+  E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:443 (__component_add_sources)
+  F:/code/lvgl/TEST/ESP32S3-4inch-001SDK/components/lcd_bsp/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Warning at E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:293 (message):
+  No source files found for SRC_DIRS entry '.'.
+Call Stack (most recent call first):
+  E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:443 (__component_add_sources)
+  F:/code/lvgl/TEST/ESP32S3-4inch-001SDK/components/bsp/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Warning at E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:293 (message):
+  No source files found for SRC_DIRS entry '.'.
+Call Stack (most recent call first):
+  E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:443 (__component_add_sources)
+  F:/code/lvgl/TEST/ESP32S3-4inch-001SDK/components/lv_port/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Warning at E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:293 (message):
+  No source files found for SRC_DIRS entry '.'.
+Call Stack (most recent call first):
+  E:/Espressif/frameworks/esp-idf-v5.1.1/tools/cmake/component.cmake:443 (__component_add_sources)
+  F:/code/lvgl/TEST/ESP32S3-4inch-001SDK/components/pwm/CMakeLists.txt:1 (idf_component_register)
+
+
