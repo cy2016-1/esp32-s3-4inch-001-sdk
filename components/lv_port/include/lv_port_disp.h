@@ -33,7 +33,6 @@ extern "C" {
 #include "bsp_board.h"
 #include "st7701.h"
 #include "esp_timer.h"
-
 /**
  * @brief Initialize related work for lvgl.
  *

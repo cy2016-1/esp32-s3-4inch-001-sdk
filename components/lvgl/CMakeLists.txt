@@ -21,8 +21,6 @@ file(GLOB_RECURSE LVGL_SOURCES
     lvgl/examples/*.c
     lvgl/demos/*.c)
 
-file(GLOB_RECURSE LV_PORT_SOURCES lv_port/*.c)
-
 # Resister components
 idf_component_register(
     SRCS
@@ -33,6 +31,7 @@ idf_component_register(
         "include"
         "lvgl/src"
         "lvgl/demos"
+        "../lv_port"
     REQUIRES
         bsp
         main)
