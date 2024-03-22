@@ -1,3 +1,19 @@
+视频教程：
+
+【esp32低成本86盒LVGL驱动板介绍】 https://www.bilibili.com/video/BV11C4y1C7M3/
+
+【1.esp32通用RGB驱动板开源lvgl V8.3.11程序下载及86盒方案演示】 https://www.bilibili.com/video/BV15K411Y78y/
+
+【2.移植SquareLine UI工程到esp32 RGB屏方案板，开启开发模式】 https://www.bilibili.com/video/BV1ZT4y147jW/
+
+【3.esp32 lvgl开发SquareLine UI工程添加事件加入PWM调光调节屏幕亮度】 https://www.bilibili.com/video/BV1eu4m1c7SD/
+
+【4.esp32 SquareLine UI工程中文字体制作方法】 https://www.bilibili.com/video/BV1vt421b7ex/
+
+【5.ESP32手把手教你做一个SquareLine LVGL温控器项目】 https://www.bilibili.com/video/BV1Wr421n7cb/
+
+【6.RS485模块发布esp32方案86盒温控器加入RS485通信控制】 https://www.bilibili.com/video/BV1nD42177Az/
+
 一、	方案介绍 
 
 应用场景：
@@ -47,11 +63,17 @@ QQ交流群（新建）：527573748
 
 【esp32低成本86盒LVGL驱动板介绍】 https://www.bilibili.com/video/BV11C4y1C7M3/
 
-【esp32通用RGB驱动板开源lvgl V8.3.11程序下载及86盒方案演示】 https://www.bilibili.com/video/BV15K411Y78y/
+【1.esp32通用RGB驱动板开源lvgl V8.3.11程序下载及86盒方案演示】 https://www.bilibili.com/video/BV15K411Y78y/
 
-【移植SquareLine UI工程到esp32 RGB屏方案板，开启开发模式】 https://www.bilibili.com/video/BV1ZT4y147jW/
+【2.移植SquareLine UI工程到esp32 RGB屏方案板，开启开发模式】 https://www.bilibili.com/video/BV1ZT4y147jW/
 
 【3.esp32 lvgl开发SquareLine UI工程添加事件加入PWM调光调节屏幕亮度】 https://www.bilibili.com/video/BV1eu4m1c7SD/
+
+【4.esp32 SquareLine UI工程中文字体制作方法】 https://www.bilibili.com/video/BV1vt421b7ex/
+
+【5.ESP32手把手教你做一个SquareLine LVGL温控器项目】 https://www.bilibili.com/video/BV1Wr421n7cb/
+
+【6.RS485模块发布esp32方案86盒温控器加入RS485通信控制】 https://www.bilibili.com/video/BV1nD42177Az/
 
 四、关于定制开发
 
