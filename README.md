@@ -14,6 +14,9 @@
 
 【6.RS485模块发布esp32方案86盒温控器加入RS485通信控制】 https://www.bilibili.com/video/BV1nD42177Az/
 
+【7.esp32通用RGB驱动板音频播放模块使用教程】 https://www.bilibili.com/video/BV1cr421b7aE
+
+
 一、	方案介绍 
 
 应用场景：
