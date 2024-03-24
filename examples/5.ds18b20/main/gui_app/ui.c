@@ -14,14 +14,12 @@ void ui_Screen1_screen_init(void);
 lv_obj_t * ui_Screen1;
 lv_obj_t * ui_Label1;
 lv_obj_t * ui_Label2;
+lv_obj_t * ui_Image1;
 lv_obj_t * ui_Image2;
+lv_obj_t * ui_Image3;
 lv_obj_t * ui_Label3;
 lv_obj_t * ui_Label4;
 lv_obj_t * ui_Label5;
-void ui_event_ImgButton1(lv_event_t * e);
-lv_obj_t * ui_ImgButton1;
-void ui_event_ImgButton2(lv_event_t * e);
-lv_obj_t * ui_ImgButton2;
 lv_obj_t * ui____initial_actions0;
 const lv_img_dsc_t * ui_imgset_[7] = {&ui_img_1_png, &ui_img_111_png, &ui_img_112_png, &ui_img_121_png, &ui_img_122_png, &ui_img_2_png, &ui_img_7_png};
 
@@ -36,22 +34,6 @@ const lv_img_dsc_t * ui_imgset_[7] = {&ui_img_1_png, &ui_img_111_png, &ui_img_11
 ///////////////////// ANIMATIONS ////////////////////
 
 ///////////////////// FUNCTIONS ////////////////////
-void ui_event_ImgButton1(lv_event_t * e)
-{
-    lv_event_code_t event_code = lv_event_get_code(e);
-    lv_obj_t * target = lv_event_get_target(e);
-    if(event_code == LV_EVENT_CLICKED) {
-        shenwenkongzhi(e);
-    }
-}
-void ui_event_ImgButton2(lv_event_t * e)
-{
-    lv_event_code_t event_code = lv_event_get_code(e);
-    lv_obj_t * target = lv_event_get_target(e);
-    if(event_code == LV_EVENT_CLICKED) {
-        jianwenkongzhi(e);
-    }
-}
 
 ///////////////////// SCREENS ////////////////////
 

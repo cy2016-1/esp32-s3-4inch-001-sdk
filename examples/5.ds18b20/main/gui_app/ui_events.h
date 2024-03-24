@@ -10,9 +10,6 @@
 extern "C" {
 #endif
 
-void shenwenkongzhi(lv_event_t * e);
-void jianwenkongzhi(lv_event_t * e);
-
 #ifdef __cplusplus
 } /*extern "C"*/
 #endif
